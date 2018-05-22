@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'csci571_hw9' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Alamofire'
+  pod 'AlamofireSwiftyJSON'
+  pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
+  pod 'GoogleMaps'
+  pod 'SwiftSpinner'
+  pod 'EasyToast'
+  pod 'Cosmos'
+
+  # Pods for csci571_hw9
+
+  target 'csci571_hw9Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'csci571_hw9UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
